@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\niazj\AppData\Local\Temp\testng-eclipse-48730395\testng-customsuite.xml</span>
+                    <span>C:\Users\niazj\AppData\Local\Temp\testng-eclipse-691040989\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.niaz.testing_1.TestNgExample" class="method navigator-link" hash-for-method="TestNgExample">TestNgExample</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.niaz.testing_1.TestNgExample" class="method navigator-link" hash-for-method="secondtest">secondtest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.niaz.testing_1.LocatorExample" class="method navigator-link" hash-for-method="locatorExample">locatorExample</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,21 +121,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.niaz.testing_1.TestNgExample</span>
+              <span class="class-name">com.niaz.testing_1.LocatorExample</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TestNgExample">
-                  </a> <!-- TestNgExample -->
-                  <span class="method-name">TestNgExample</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="secondtest">
-                  </a> <!-- secondtest -->
-                  <span class="method-name">secondtest</span>
+                  <a name="locatorExample">
+                  </a> <!-- locatorExample -->
+                  <span class="method-name">locatorExample</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -148,7 +136,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\niazj\AppData\Local\Temp\testng-eclipse-48730395\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\niazj\AppData\Local\Temp\testng-eclipse-691040989\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -157,7 +145,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.niaz.testing_1.TestNgExample&quot;/&gt;
+      &lt;class name=&quot;com.niaz.testing_1.LocatorExample&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -197,20 +185,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TestNgExample')
-data.setCell(0, 2, 'com.niaz.testing_1.TestNgExample')
-data.setCell(0, 3, 11);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'secondtest')
-data.setCell(1, 2, 'com.niaz.testing_1.TestNgExample')
-data.setCell(1, 3, 9);
+data.setCell(0, 1, 'locatorExample')
+data.setCell(0, 2, 'com.niaz.testing_1.LocatorExample')
+data.setCell(0, 3, 21203);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 ms</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -236,54 +220,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.niaz.testing_1.TestNgExample</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.niaz.testing_1.LocatorExample</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">beforesuit</span>
+                <span class="method-name">start</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
-                <span class="method-name">beforetest</span>
-                <span class="method-start">29 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeclass</span>
-                <span class="method-start">59 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod</span>
-                <span class="method-start">82 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TestNgExample</span>
-                <span class="method-start">84 ms</span>
+                <span class="method-name">locatorExample</span>
+                <span class="method-start">2647 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">aftermethod</span>
-                <span class="method-start">107 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod</span>
-                <span class="method-start">116 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">secondtest</span>
-                <span class="method-start">121 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">aftermethod</span>
-                <span class="method-start">134 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterclass</span>
-                <span class="method-start">139 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-test after">
-                <span class="method-name">aftertest</span>
-                <span class="method-start">143 ms</span>
-              </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
-                <span class="method-name">aftersuite</span>
-                <span class="method-start">305 ms</span>
+                <span class="method-name">close</span>
+                <span class="method-start">23887 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

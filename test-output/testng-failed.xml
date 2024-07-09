@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.niaz.testing_1.first_test">
+      <class name="com.niaz.testing_1.LocatorExample">
         <methods>
           <include name="close"/>
-          <include name="first_test"/>
+          <include name="locatorExample"/>
           <include name="start"/>
         </methods>
-      </class> <!-- com.niaz.testing_1.first_test -->
+      </class> <!-- com.niaz.testing_1.LocatorExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
